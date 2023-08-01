@@ -9,7 +9,7 @@ const loadingSlice = createSlice({
   name: "global",
   initialState,
   reducers: {
-   setLoading: (state, action) => { return action.payload }
+   setLoading: (_, action) => { return action.payload }
   },
 });
 export const { setLoading } = loadingSlice.actions;

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { useAppDispatch, useAppSelectior } from "../redux/createStore";
+import { useAppDispatch } from "../redux/createStore";
 import logo from "../assets/codeleap_logo_black 1.png";
 import { verify } from "../actions/user/verify";
 import { useEffect } from "react";
